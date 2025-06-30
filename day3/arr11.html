@@ -1,0 +1,14 @@
+<script>
+    const arr = [112, 54, 123, 76, 8, 87];
+    console.log(arr[arr.length-1])
+    let i=0;
+    let j=arr.length-1;
+    while(i<j){
+        let temp=arr[i]
+        arr[i]=arr[j]
+        arr[j]=temp
+        i++
+        j--
+    }
+    console.log(arr)
+</script>

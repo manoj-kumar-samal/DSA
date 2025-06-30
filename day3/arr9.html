@@ -7,7 +7,7 @@
         if(arr[i]>max){
             sMax=max;
             max=arr[i];
-        }else if(arr[i]>sMax){
+        }else if(arr[i]>sMax && max != arr[i]){
             sMax=arr[i];
         }
     }
